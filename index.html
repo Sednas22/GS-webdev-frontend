@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>O futuro do trabalho</title>
+	<link rel="stylesheet" href="src/css/style.css" />
+    <link rel="icon" href="src/assets/imgs/logo.png" type="image/css">
+</head>
+<body>
+	<header class="cab">
+		<h1>O futuro do trabalho</h1>
+		<p class="sub">Conectando pessoas, competências e propósito</p>
+		<p class="mini">Global Solution FIAP 2025 — Requalificação, inclusão e trabalho digno.</p>
+	</header>
+
+	<main class="container">
+		<section class="sec-intro">
+			<h2>Profissionais</h2>
+			<p class="instr">Clique em um card para ver mais detalhes.</p>
+		</section>
+
+		<section id="area-cards" class="area-cards"></section>
+
+		<section class="sec-quiz">
+			<h2>Quiz: mercado do futuro</h2>
+			<div id="area-quiz" class="area-quiz"></div>
+		</section>
+
+		<section class="sec-ods">
+			<h2>Alinhamento com ODS</h2>
+			<p>Exemplo: requalificação, trabalho digno e inovação.</p>
+		</section>
+	</main>
+
+	<footer class="rodape">
+		<p>Global Solution • Front-end Design & Web Development • 1º Semestre 2025</p>
+	</footer>
+
+	<div id="modal" class="modal oculto" aria-hidden="true">
+		<div class="modal-conteudo">
+			<button id="bt-fecha" class="bt-fecha" title="Fechar">✕</button>
+
+			<div class="modal-corpo">
+				<img id="img-modal" src="" alt="" class="foto-modal" />
+				<div class="info-modal">
+					<h3 id="nome-modal"></h3>
+					<p id="cargo-modal" ></p>
+					<p id="formacao-modal"></p>
+					<p id="exp-modal"></p>
+					<p id="soft-modal"></p>
+					<p id="hobby-modal"></p>
+					<p id="ods-modal"></p>
+
+					<div class="acoes">
+						<button id="bt-recomendar" class="botao">Recomendar profissional</button>
+						<button id="bt-mensagem" class="botao">Enviar mensagem</button>
+					</div>
+
+					<div id="area-mensagem" class="area-mensagem oculto">
+						<input id="campo-mensagem" class="input-msg" type="text" placeholder="Digite sua mensagem" />
+						<button id="bt-enviar-mensagem" class="botao">Enviar</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="navegacao-modal">
+				<button id="bt-anterior" class="nav">‹ Anterior</button>
+				<span id="ind-modal" class="indice">1 / 1</span>
+				<button id="bt-proximo" class="nav">Próximo ›</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="src/js/dados.js"></script>
+	<script src="src/js/main.js"></script>
+</body>
+</html>

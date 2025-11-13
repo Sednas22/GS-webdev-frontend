@@ -3,7 +3,7 @@ Global Solution desenvolvida por Cainã Sandes Batista, RM: 568571. <br>
 Apresentado ao curso de Engenharia de Software. <hr>
 
 <h3>Nome do Projeto:</h3> 
-<p>...</p>
+<p>O futuro do trabalho</p>
 
 <h3>Descrição do Caso:</h3> 
 <p>
@@ -12,17 +12,29 @@ Apresentado ao curso de Engenharia de Software. <hr>
 
 <h3>Estrutura do projeto:</h3> <p>
 <ul>
-  <li>... (folder)</li>
+  <li>GS-webdev-frontend (folder)</li>
   <ul>
-    <b><li>...</b> – ...</li>
-    <li>...</li>
-    <li>...</li>
-    <li>...</li>
-    <li><b>...</b> – ...</li>
-    <li><b>...</b> – ...</li>
-    <li><b>...</b> – ...</li>
-    <li><b>...</b> – ...</li>
-</ul>
+    <b><li>index.html</b> – ...</li>
+    <li>README.md</li>
+    <li>src</li>
+    <ul>
+      <li>assets</li>
+      <ul>
+        <li>imgs</li>
+        <ul>
+          <li>...</li>
+        </ul>
+      </ul>
+      <li>css</li>
+      <ul>
+        <li>style.css</li>
+      </ul>
+      <li>js</li>
+      <ul>
+        <li>dados.js</li>
+        <li>main.js</li>
+      </ul>
+    </ul>
   </ul>
 </ul>
 
