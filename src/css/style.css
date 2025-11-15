@@ -1,3 +1,5 @@
+/*Cainã Sandes Batista; RM: 568571.*/
+
 *{
 	box-sizing: border-box;
 }
@@ -103,7 +105,7 @@ body{
 }
 
 .oculto{
-	display: none !important;
+	display: none;
 }
 
 .modal-conteudo{
