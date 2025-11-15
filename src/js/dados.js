@@ -4,13 +4,35 @@ var perfis = [
 	{
 		nome: "Ana Clara Oliveira Porto",
 		cargo: "Psicóloga",
-		foto: "src/assets/imgs/logo.png",
+		foto: "src/assets/imgs/p1.png",
 		skills: ["Resolução de problemas, aprendizado contínuo, pensamento crítico."],
 		formacao: "Psicologia (Centro Universitário Braz Cubas)",
 		experiencia: "Ministração de palestras",
-		soft: ["Escuta ativa, comunicação"],
+		soft: ["Escuta ativa, comunicação."],
 		hobbies: ["Leitura"],
 		ods: "ODS4"
+	},
+	{
+		nome: "Geovanne da Silva Amorim",
+		cargo: "Programador",
+		foto: "src/assets/imgs/p2.png",
+		skills: ["..., ..., ...."],
+		formacao: "Ciências da computação (Universidade Federal do ABC)",
+		experiencia: "Venda em varejo",
+		soft: ["..., ...."],
+		hobbies: ["Futebol"],
+		ods: "ODS?"
+	},
+	{
+		nome: "Rian Fernandes Belchior",
+		cargo: "Engenheiro",
+		foto: "src/assets/imgs/p3.png",
+		skills: ["..., ..., ...."],
+		formacao: "Engenharia de computação (Centro Universitário das Faculdades Metropolitanas Unidas)",
+		experiencia: "...",
+		soft: ["..., ...."],
+		hobbies: ["Videogame"],
+		ods: "ODS?"
 	}
 ];
 

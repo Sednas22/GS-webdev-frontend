@@ -9,6 +9,7 @@ var indModal = document.getElementById("ind-modal");
 var imgModal = document.getElementById("img-modal");
 var nomeModal = document.getElementById("nome-modal");
 var cargoModal = document.getElementById("cargo-modal");
+var skillsModal = document.getElementById("skills-modal");
 var formModal = document.getElementById("formacao-modal");
 var expModal = document.getElementById("exp-modal");
 var softModal = document.getElementById("soft-modal");
@@ -41,27 +42,11 @@ function mostrarPerfil(i){
     imgModal.src = p.foto;
     nomeModal.textContent = p.nome;
     cargoModal.textContent = p.cargo;
+	skillsModal.textContent = "Hard skills: " + p.skills;
     formModal.textContent = "Formação: " + p.formacao;
     expModal.textContent = "Experiência: " + p.experiencia;
-
-    var textoSoft = "";
-    for (var s = 0; s < p.soft.length; s++){
-        if (s > 0){
-            textoSoft = textoSoft + ", ";
-        }
-        textoSoft = textoSoft + p.soft[s];
-    }
-    softModal.textContent = "Soft skills: " + textoSoft;
-
-    var textoHobby = "";
-    for (var h = 0; h < p.hobbies.length; h++){
-        if (h > 0){
-            textoHobby = textoHobby + ", ";
-        }
-        textoHobby = textoHobby + p.hobbies[h];
-    }
-    hobbyModal.textContent = "Hobbies: " + textoHobby;
-
+    softModal.textContent = "Soft skills: " + p.soft;
+    hobbyModal.textContent = "Hobbies: " + p.hobbies;
     odsModal.textContent = "ODS: " + p.ods;
     indModal.textContent = (i + 1) + " / " + totalPerfis;
 }
