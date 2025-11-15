@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	<title>O futuro do trabalho</title>
 	<link rel="stylesheet" href="src/css/style.css" />
-    <link rel="icon" href="src/assets/imgs/logo.png" type="image/css">
+	<link rel="icon" href="src/assets/imgs/logo.png" type="image/css">
 </head>
 <body>
 	<header class="cab">
@@ -20,16 +20,114 @@
 			<p class="instr">Clique em um card para ver mais detalhes.</p>
 		</section>
 
-		<section id="area-cards" class="area-cards"></section>
+		<section id="area-cards" class="area-cards">
+			<article class="card" onclick="abrirModal(0)">
+				<div class="foto" style="background-image: url('src/assets/imgs/logo.png')"></div>
+				<div class="info">
+					<h3>Ana Clara Oliveira Porto</h3>
+					<p class="cargo">Psicóloga</p>
+					<p>Resolução de problemas • Pensamento crítico • Escuta ativa</p>
+				</div>
+			</article>
+
+			<article class="card" onclick="abrirModal(1)">
+				<div class="foto" style="background-image: url('src/assets/imgs/p2.png')"></div>
+				<div class="info">
+					<h3>Bruno Lima</h3>
+					<p class="cargo">Desenvolvedor Front</p>
+					<p>HTML • CSS • JavaScript</p>
+				</div>
+			</article>
+
+			<article class="card" onclick="abrirModal(2)">
+				<div class="foto" style="background-image: url('src/assets/imgs/p3.png')"></div>
+				<div class="info">
+					<h3>Carla Nunes</h3>
+					<p class="cargo">Analista de Dados</p>
+					<p>SQL • Excel • PowerBI</p>
+				</div>
+			</article>
+
+			<article class="card" onclick="abrirModal(3)">
+				<div class="foto" style="background-image: url('src/assets/imgs/p4.png')"></div>
+				<div class="info">
+					<h3>Diego Santos</h3>
+					<p class="cargo">Gestor de Produto</p>
+					<p>Roadmap • OKR • UX</p>
+				</div>
+			</article>
+
+			<article class="card" onclick="abrirModal(4)">
+				<div class="foto" style="background-image: url('src/assets/imgs/p5.png')"></div>
+				<div class="info">
+					<h3>Elisa Moura</h3>
+					<p class="cargo">QA</p>
+					<p>Testes • Automação</p>
+				</div>
+			</article>
+
+			<article class="card" onclick="abrirModal(5)">
+				<div class="foto" style="background-image: url('src/assets/imgs/p6.png')"></div>
+				<div class="info">
+					<h3>Fábio Rocha</h3>
+					<p class="cargo">DevOps</p>
+					<p>CI/CD • Docker • Cloud</p>
+				</div>
+			</article>
+
+			<article class="card" onclick="abrirModal(6)">
+				<div class="foto" style="background-image: url('src/assets/imgs/p7.png')"></div>
+				<div class="info">
+					<h3>Gabi Melo</h3>
+					<p class="cargo">Marketing</p>
+					<p>SEO • Copy • Analytics</p>
+				</div>
+			</article>
+
+			<article class="card" onclick="abrirModal(7)">
+				<div class="foto" style="background-image: url('src/assets/imgs/p8.png')"></div>
+				<div class="info">
+					<h3>Hugo Alves</h3>
+					<p class="cargo">Eng. de Dados</p>
+					<p>Python • ETL • Spark</p>
+				</div>
+			</article>
+
+			<article class="card" onclick="abrirModal(8)">
+				<div class="foto" style="background-image: url('src/assets/imgs/p9.png')"></div>
+				<div class="info">
+					<h3>Isabela Rocha</h3>
+					<p class="cargo">RH</p>
+					<p>Recrutamento • Onboarding</p>
+				</div>
+			</article>
+
+			<article class="card" onclick="abrirModal(9)">
+				<div class="foto" style="background-image: url('src/assets/imgs/p10.png')"></div>
+				<div class="info">
+					<h3>João Pedro</h3>
+					<p class="cargo">Analista de Sistemas</p>
+					<p>Java • APIs • Arquitetura</p>
+				</div>
+			</article>
+		</section>
 
 		<section class="sec-quiz">
 			<h2>Quiz: mercado do futuro</h2>
-			<div id="area-quiz" class="area-quiz"></div>
+			<div id="area-quiz" class="area-quiz">
+				<p id="pergunta" class="pergunta"></p>
+
+				<label><input type="radio" name="op" value="0"> <span id="opt0"></span></label><br>
+				<label><input type="radio" name="op" value="1"> <span id="opt1"></span></label><br>
+				<label><input type="radio" name="op" value="2"> <span id="opt2"></span></label><br>
+
+				<button id="bt-quiz" class="botao" type="button">Próxima</button>
+			</div>
 		</section>
 
 		<section class="sec-ods">
 			<h2>Alinhamento com ODS</h2>
-			<p>Exemplo: requalificação, trabalho digno e inovação.</p>
+			<p>Este projeto referencia ODS 4, 8, 9 e 10 - educação, trabalho digno, inovação e inclusão.</p>
 		</section>
 	</main>
 
@@ -39,13 +137,13 @@
 
 	<div id="modal" class="modal oculto">
 		<div class="modal-conteudo">
-			<button id="bt-fecha" class="bt-fecha" title="Fechar">✕</button>
+			<button id="bt-fecha" class="bt-fecha" type="button">✕</button>
 
 			<div class="modal-corpo">
 				<img id="img-modal" src="" alt="" class="foto-modal" />
 				<div class="info-modal">
 					<h3 id="nome-modal"></h3>
-					<p id="cargo-modal" ></p>
+					<p id="cargo-modal" class="cargo"></p>
 					<p id="formacao-modal"></p>
 					<p id="exp-modal"></p>
 					<p id="soft-modal"></p>
@@ -53,21 +151,21 @@
 					<p id="ods-modal"></p>
 
 					<div class="acoes">
-						<button id="bt-recomendar" class="botao">Recomendar profissional</button>
-						<button id="bt-mensagem" class="botao">Enviar mensagem</button>
+						<button id="bt-recomendar" class="botao" type="button">Recomendar profissional</button>
+						<button id="bt-mensagem" class="botao" type="button">Enviar mensagem</button>
 					</div>
 
 					<div id="area-mensagem" class="area-mensagem oculto">
 						<input id="campo-mensagem" class="input-msg" type="text" placeholder="Digite sua mensagem" />
-						<button id="bt-enviar-mensagem" class="botao">Enviar</button>
+						<button id="bt-enviar-mensagem" class="botao" type="button">Enviar</button>
 					</div>
 				</div>
 			</div>
 
 			<div class="navegacao-modal">
-				<button id="bt-anterior" class="nav">‹ Anterior</button>
-				<span id="ind-modal" class="indice">1 / 1</span>
-				<button id="bt-proximo" class="nav">Próximo ›</button>
+				<button id="bt-anterior" class="nav" type="button">‹ Anterior</button>
+				<span id="ind-modal" class="indice">1 / 10</span>
+				<button id="bt-proximo" class="nav" type="button">Próximo ›</button>
 			</div>
 		</div>
 	</div>
