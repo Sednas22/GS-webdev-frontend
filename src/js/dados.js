@@ -14,25 +14,102 @@ var perfis = [
 	},
 	{
 		nome: "Geovanne da Silva Amorim",
-		cargo: "Programador",
+		cargo: "Desenvolvedor front",
 		foto: "src/assets/imgs/p2.png",
-		skills: ["..., ..., ...."],
+		skills: ["HTML, CSS, JavaScript"],
 		formacao: "Ciências da computação (Universidade Federal do ABC)",
 		experiencia: "Venda em varejo",
-		soft: ["..., ...."],
+		soft: ["Organização, proatividade."],
 		hobbies: ["Futebol"],
-		ods: "ODS?"
+		ods: "ODS9"
 	},
 	{
 		nome: "Rian Fernandes Belchior",
 		cargo: "Engenheiro",
 		foto: "src/assets/imgs/p3.png",
-		skills: ["..., ..., ...."],
+		skills: ["Excel, Kanban."],
 		formacao: "Engenharia de computação (Centro Universitário das Faculdades Metropolitanas Unidas)",
-		experiencia: "...",
-		soft: ["..., ...."],
-		hobbies: ["Videogame"],
-		ods: "ODS?"
+		experiencia: "Recursos humanos",
+		soft: ["Raciocínio rápido, determinação."],
+		hobbies: ["Videogames"],
+		ods: "ODS9"
+	},
+	{
+		nome: "Gabriel Hebert Reis de Oliveira",
+		cargo: "Técnico de informática",
+		foto: "src/assets/imgs/p4.png",
+		skills: ["C#, SQL, FI"],
+		formacao: "Sistemas da informação (Universidade Estadual de Campinas)",
+		experiencia: "Desenvolvimento de sistemas",
+		soft: ["Inteligência emocional, adaptabilidade."],
+		hobbies: ["Música"],
+		ods: "ODS10"
+	},
+	{
+		nome: "Thierry Azevedo Vieira",
+		cargo: "Programador",
+		foto: "src/assets/imgs/p5.png",
+		skills: ["Java, Python"],
+		formacao: "Desenvolvimento de Sistemas (Escola Técnica de Itaquaquecetuba)",
+		experiencia: "Sem experiência",
+		soft: ["Colaboração, liderança."],
+		hobbies: ["Esportes"],
+		ods: "ODS9"
+	},
+	{
+		nome: "Ryan Agostinho Lopes",
+		cargo: "Sem cargo",
+		foto: "src/assets/imgs/p6.png",
+		skills: ["PHP, windows"],
+		formacao: "Tecnologia da Informação (Escola Técnica de Itaquaquecetuba)",
+		experiencia: "Sem experiência",
+		soft: ["Estudo, produtividade."],
+		hobbies: ["Bicicleta"],
+		ods: "ODS8"
+	},
+	{
+		nome: "Pedro Silvestre da Silva",
+		cargo: "Desenvolvedor back",
+		foto: "src/assets/imgs/p7.png",
+		skills: ["Python, APIs, Java"],
+		formacao: "Desenvolvimento de Sistemas (Escola Técnica de Itaquaquecetuba)",
+		experiencia: "Recepão hospitalar",
+		soft: ["Curiosidade, argumentação"],
+		hobbies: ["RPG"],
+		ods: "ODS10"
+	},
+	{
+		nome: "Juliana Fonseca Gonçalves",
+		cargo: "Advogada",
+		foto: "src/assets/imgs/p8.png",
+		skills: ["Inglês, Pacote Office, Scrum."],
+		formacao: "Direito (Universidade Cruzeiro do Sul)",
+		experiencia: "Atendente multitarefas",
+		soft: ["Resoluão de problemas, resiliência"],
+		hobbies: ["Instrumentos musicais"],
+		ods: "ODS8"
+	},
+	{
+		nome: "Flavio Lopes Teixeira",
+		cargo: "Chef de cozinha",
+		foto: "src/assets/imgs/p9.png",
+		skills: ["Aprsentação, cozimento, segurança alimentar"],
+		formacao: "Gastronomia (Centro Universitário Braz Cubas)",
+		experiencia: "Recursos humanos",
+		soft: ["Gestão do tempo, comunicação."],
+		hobbies: ["Cozinhar"],
+		ods: "ODS4"
+	},
+	{
+		nome: "Jonas Araujo Estevao",
+		cargo: "Analista clínico",
+		foto: "src/assets/imgs/p10.png",
+		skills: ["Radiologia, pesquisa científica, gestão de pessoas"],
+		formacao: "Biomedicina (Centro Universitário Braz Cubas)",
+		experiencia: "Metlúrgica",
+		soft: ["Criatividade, empatia."],
+		hobbies: ["Xadrez"],
+		ods: "ODS9"
 	}
 ];
 
