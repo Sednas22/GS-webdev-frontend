@@ -90,7 +90,7 @@ O código também inclui a simulação dos botões “Recomendar profissional”
 
 <h3>Publicação:</h3> <p>
 O projeto foi publicado no GitHub Pages para visualização online. <br>
-🔗 Link GitHub-Pages: https://sednas22.github.io/GS-webdev-frontend/
+🔗 Link GitHub-Pages: https://sednas22.github.io/GS-webdev-frontend/ <br>
 🔗 Link repositório: https://github.com/Sednas22/GS-webdev-frontend
 </p>
 
